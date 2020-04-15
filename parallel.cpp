@@ -5,6 +5,7 @@ Test::Test()
 
 }
 
+
 /*Test::playParallel(pxt::Action a)
 {
 #ifdef CODAL_I2C
@@ -21,7 +22,7 @@ namespace parall
 	static Test* xTest =  new Test();
 	
 	//%
-	int startParallel(pxt::Action a)
+	int startParallel(Action a)
 	{
 		runInParallel(a);
 		return 1;
