@@ -1,0 +1,25 @@
+{
+    "name": "runParallel",
+    "version": "0.0.0",
+    "description": "Parallel running",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "parallel.ts",
+		"parallel.h",
+		"parallel.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
